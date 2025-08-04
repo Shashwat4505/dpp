@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:  #0f2027;
+  padding: 40px;
+  text-align: center;
+}
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+
+h2 {
+  color: cyan;
+  margin-bottom: 20px;
+}
+
+form {
+  display: inline-block;
+  background-color:  #0f2027;
+  padding: 90px 40px;
+  border-radius: 40px;
+  box-shadow: 0 40px 100px rgba(0, 0, 0, 0.1);
+}
+
+.option {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+input[type="radio"] {
+  transform: scale(1.3);
+  margin-right: 10px;
+  cursor: pointer;
+  box-sizing: 60px;
+}
+
+label {
+  cursor: pointer;
+  color: cyan;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 24px;
+  background-color: #007BFF;
+  color: red;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
